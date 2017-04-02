@@ -6,6 +6,7 @@
 * [Three Useful Monads](http://adit.io/posts/2013-06-10-three-useful-monads.html)
 * [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
 * [Fantas, Eel, and Specification 1 - ?](http://www.tomharding.me/2017/03/03/fantas-eel-and-specification/)
+* [Practical Intro to Monads in JavaScript: Either](https://tech.evojam.com/2016/03/21/practical-intro-to-monads-in-javascript-either/)
 
 ## books
 
