@@ -6,7 +6,7 @@ When running a node package as an _External Tool_ in Webstorm, you can get this 
 
 To workaround it, launch Webstorm from terminal, for example:
 
->  /home/<you>/Downloads/WebStorm-163.7743.51/bin/webstorm.sh
+> $  /home/<you>/Downloads/WebStorm-163.7743.51/bin/webstorm.sh
 
 (That path is in `~/.local/share/applications/jetbrains-webstorm.desktop`.)
 
