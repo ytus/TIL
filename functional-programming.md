@@ -1,5 +1,9 @@
 # functional programming
 
+## Maybe is nothing about null
+
+Maybe is used to express a missing value, which doesn't neccssarily have to be `null`. `Maybe.nothing()` is not equal `null` and it is possible to create `Maybe.just(null)`. Another thing is thether it's a good idea :-) Probably not.
+
 ## articles
 
 * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
