@@ -4,7 +4,7 @@ When running a node package as an _External Tool_ in Webstorm (for example prett
 
 > /usr/bin/env: ‘node’: No such file or directory
 
-It may be caused by the way `nvm` changes your PATH,see: https://intellij-support.jetbrains.com/hc/en-us/community/posts/205964744-npm-is-installed-using-nvm-but-IntelliJ-doesn-t-know-about-it
+It may be caused by the way `nvm` changes your `PATH`, see: https://intellij-support.jetbrains.com/hc/en-us/community/posts/205964744-npm-is-installed-using-nvm-but-IntelliJ-doesn-t-know-about-it
 
 If that's the case, there is a workaround. Simply launch Webstorm from a terminal, for example:
 
