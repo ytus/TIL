@@ -27,8 +27,13 @@ $ vim webstorm
  :wq
 $ chmod +x webstorm
 $ sudo cp webstorm /usr/local/bin
-$ webstorm
 ~~~
+
+and run
+
+> $ webstorm
+
+or change the `Exec` entry in your `.../jetbrains-webstorm.desktop` to `Exec=webstorm` and click on the Webstorm's icon.
 
 ## flow: polymorphic types and the error: `This type is incompatible with ... some incompatible instantiation of`
 
