@@ -8,13 +8,13 @@ It may be caused by the way `nvm` changes your `PATH`, see: https://intellij-sup
 
 If that's the case, there is a workaround. Simply launch Webstorm from a terminal, for example:
 
-> $ /home/<you>/Downloads/WebStorm-163.7743.51/bin/webstorm.sh
+> $ /home/yourUserName/Downloads/WebStorm-163.7743.51/bin/webstorm.sh
 
-(That path is in `~/.local/share/applications/jetbrains-webstorm.desktop`.)
+That path is in `~/.local/share/applications/jetbrains-webstorm.desktop`. Don't forget to use correct _yourUserName_.
 
 If you want to close the terminal afterwards, use this: 
 
-> nohup /home/<you>/Downloads/WebStorm-163.7743.51/bin/webstorm.sh &>/dev/null &
+> nohup /home/yourUserName/Downloads/WebStorm-163.7743.51/bin/webstorm.sh &>/dev/null &
 
 (see https://www.maketecheasier.com/run-bash-commands-background-linux/ for explanation)
 
@@ -23,7 +23,7 @@ Or even better, create a shortcut for yourself:
 ~~~ bash
 $ vim webstorm
  [Insert]
- nohup /home/<you>/Downloads/WebStorm-163.7743.51/bin/webstorm.sh &>/dev/null &
+ nohup /home/yourUserName/Downloads/WebStorm-163.7743.51/bin/webstorm.sh &>/dev/null &
  :wq
 $ chmod +x webstorm
 $ sudo cp webstorm /usr/local/bin
