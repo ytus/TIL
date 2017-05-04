@@ -21,11 +21,13 @@
 > When an element has a position value other than static and a z-index value other than auto
 ? When an element has an opacity value less than 1
 
-(~ https://philipwalton.com/articles/what-no-one-told-you-about-z-index/)
+(~ https://philipwalton.com/articles/what-no-one-told-you-about-z-index/ )
 
 # sass, `calc()` and variables
 
 If you need to use a variable inside of the `calc` function, do it this way: `height: calc(100% - #{$header-height})`
+
+(~ http://stackoverflow.com/a/20236515 )
 
 # `overflow` and scrollbars
 
