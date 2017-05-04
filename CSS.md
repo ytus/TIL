@@ -22,3 +22,13 @@
 ? When an element has an opacity value less than 1
 
 (~ https://philipwalton.com/articles/what-no-one-told-you-about-z-index/)
+
+# sass, `calc()` and variables
+
+If you need to use a variable inside of the `calc` function, do it this way: `height: calc(100% - #{$header-height})`
+
+# `overflow` and scrollbars
+
+Scroll bars will be visible:
+* `overflow: scroll;` always
+* `overflow: auto;` only when necessary
