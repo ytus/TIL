@@ -6,34 +6,16 @@ When running a node package as an _External Tool_ in Webstorm (for example prett
 
 It may be caused by the way `nvm` changes your `PATH`, see: https://intellij-support.jetbrains.com/hc/en-us/community/posts/205964744-npm-is-installed-using-nvm-but-IntelliJ-doesn-t-know-about-it
 
-If that's the case, there is a workaround. Simply launch Webstorm from a terminal, for example:
-
-> $ /home/yourUserName/Downloads/WebStorm-163.7743.51/bin/webstorm.sh
-
-That path is in `~/.local/share/applications/jetbrains-webstorm.desktop`. Don't forget to use correct _yourUserName_.
-
-If you want to close the terminal afterwards, use this: 
-
-> nohup /home/yourUserName/Downloads/WebStorm-163.7743.51/bin/webstorm.sh &>/dev/null &
-
-(see https://www.maketecheasier.com/run-bash-commands-background-linux/ for explanation)
-
-Or even better, create a shortcut for yourself:
+If that's the case, there is a solution. Simply copy the two lines, that set path to node using nvm from your `~/.bashrc` 
 
 ~~~ bash
-$ vim webstorm
- [Insert]
- nohup /home/yourUserName/Downloads/WebStorm-163.7743.51/bin/webstorm.sh &>/dev/null &
- :wq
-$ chmod +x webstorm
-$ sudo cp webstorm /usr/local/bin
+export NVM_DIR="/home/_you_/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 ~~~
 
-and run
+into `~/.profile`.
 
-> $ webstorm
 
-~or change the `Exec` entry in your `.../jetbrains-webstorm.desktop` to `Exec=webstorm` and click on the Webstorm's icon.~ doesn't work ¯\\_(ツ)_/¯
 
 ## flow: polymorphic types and the error: `This type is incompatible with ... some incompatible instantiation of`
 
