@@ -1,4 +1,6 @@
-# How to find the password for a Wi-Fi network
+# Windows
+
+## How to find the password for a Wi-Fi network
 In cmd run:
 
 > netsh wlan show profile
