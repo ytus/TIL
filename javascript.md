@@ -36,7 +36,7 @@ The `/dist` folder is place for your code packed into files ready for users that
 
 ## `browser` field in `package.json` is for ignoring some files when bundling with webpack
 
-If you want to tell Webpack to ignore some file from your package, you can use the `browser` fiels. 
+If you want to tell Webpack to ignore a file that is in your package, you can use the `browser` field. 
 
 Spec: https://github.com/defunctzombie/package-browser-field-spec
 
