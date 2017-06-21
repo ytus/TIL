@@ -25,3 +25,11 @@ Polymorphic types are quite strict:
 > Not the type of value but the value or a modified version of the value itself.
 
 ~ https://github.com/facebook/flow/issues/2194#issuecomment-237899795
+
+## Structure of a npm package, `/src`, `/lib`, `/dist`
+
+The `/src` folder is what the name says. Use your favourite langueage there. 
+
+The `/lib` folder is where your source code will go after transformation (babel). Here the code should be as much compatible/accessible as possible (ES5?). When you `import` this package, npm will use code from `/lib` (because the field `"main": "..."` in`package.json` usualy points to `index.js` in root of the package, but that `index.js` requires files from `/lib`). 
+
+The `/dist` folder is place for your code packed into files ready for users that don't use npm/webpack/...
