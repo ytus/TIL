@@ -33,3 +33,30 @@ The `/src` folder is what the name says. Use your favourite langueage there.
 The `/lib` folder is where your source code will go after transformation (babel). Here the code should be as much compatible/accessible as possible (ES5?). When you `import` this package, npm will use code from `/lib` (because the field `"main": "..."` in`package.json` usualy points to `index.js` in root of the package, but that `index.js` requires files from `/lib`). 
 
 The `/dist` folder is place for your code packed into files ready for users that don't use npm/webpack/...
+
+## `browser` field in `package.json` is for ignoring some files when bundling with webpack
+
+If you want to tell Webpack to ignore some file from your package, you can use the `browser` fiels. Example:
+
+(~ https://github.com/yahoo/intl-messageformat/commit/5082e2919a2672f3408818147aedf6bce1ccba42 ) 
+
+> (...) adds a `"browser"` field to the `package.json` file to hint to
+> both Browserify and Webpack that they should _not_ include the data for
+> all locales (just English) when bundling for the browser.
+
+package.json
+
+~~~ js
+  "browser": {
+    "./lib/locales": false,
+    "./lib/locales.js": false
+  },
+~~~
+
+index.js
+
+~~~ js
+// Add all locale data to `IntlMessageFormat`. This module will be ignored when
+// bundling for the browser with Browserify/Webpack.
+require('./lib/locales');
+~~~
