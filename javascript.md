@@ -64,3 +64,23 @@ index.js
 // bundling for the browser with Browserify/Webpack.
 require('./lib/locales');
 ~~~
+
+## moment.js
+
+### How to create a moment only with date without time
+
+Use `.startOf('day')`. 
+
+(~ https://stackoverflow.com/a/19699447) 
+
+### How to set UTC offset when construncting a moment instance
+
+Calling `utcOffset(...)` changes the time of the current moment. Use the second parameter (boolean) to prevent it: 
+
+> The utcOffset function has an optional second parameter which accepts a boolean value 
+> indicating whether to keep the existing time of day.
+> One use of this feature is if you want to construct a moment 
+> with a specific time zone offset using only numeric input values
+
+(~ https://jsbin.com/xajurup/edit?js,console )
+(~ http://momentjs.com/docs/#/manipulating/utc-offset/ )
