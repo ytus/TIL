@@ -24,6 +24,15 @@ Maybe is used to express a missing value, which doesn't neccssarily have to be `
 
 (~ https://stackoverflow.com/a/18911314 )
 
+> Yet another way of saying the same thing: 
+> `Reader r a` is something that consumes `r` and produces `a`, and the Functor, Applicative and Monad instances are basic patterns for working with Readers. 
+> * Functor = make a Reader that modifies the output of another Reader 
+> * Applicative = connect two Readers to the same input and combine their outputs 
+> * Monad = inspect the result of a Reader and use it to construct another Reader. 
+> * The `local` and `withReader` functions = make a Reader that modifies the input to another Reader.
+
+(~ https://stackoverflow.com/a/14206724 )
+
 ### Writer
 
 ### State
