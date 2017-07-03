@@ -35,6 +35,12 @@ Maybe is used to express a missing value, which doesn't neccssarily have to be `
 
 ### Writer
 
+#### `lister` and `pass`
+
+> It's now clear that `listen` gives you access to the log produced by a Writer action inside the Writer monad, and `pass` gives you a way to alter the log inside the Writer monad.
+
+(~ https://stackoverflow.com/a/34834078 )
+
 ### State
 
 ### RWS
