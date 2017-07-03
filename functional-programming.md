@@ -10,6 +10,10 @@ Maybe is used to express a missing value, which doesn't neccssarily have to be `
 
 ### Reader
 
+>  Represents a computation, which can read values from a shared environment, pass values from function to function, and execute sub-computations in a modified environment.
+
+(~ https://hackage.haskell.org/package/mtl-2.2.1/docs/Control-Monad-Reader.html )
+
 > (...) often a function cannot be pure. For example, it may need to access some global information just for reading. We could just add another parameter to the function:
 >
 >     readerFunc :: GlobalConfig -> Int -> Int
