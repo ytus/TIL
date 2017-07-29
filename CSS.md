@@ -23,14 +23,19 @@
 
 (~ https://philipwalton.com/articles/what-no-one-told-you-about-z-index/ )
 
-# sass, `calc()` and variables
+## sass, `calc()` and variables
 
 If you need to use a variable inside of the `calc` function, do it this way: `height: calc(100% - #{$header-height})`
 
 (~ http://stackoverflow.com/a/20236515 )
 
-# `overflow` and scrollbars
+## `overflow` and scrollbars
 
 Scroll bars will be visible:
 * `overflow: scroll;` always
 * `overflow: auto;` only when necessary
+
+## `box-shadow`
+
+If you set the shadow but can't see it (on one side of the element), give that element some margin so there is actualy enough space around it to show the shadow.
+

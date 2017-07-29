@@ -1,12 +1,76 @@
 # functional programming
 
+## fantasyland
+
+### =>
+> equals :: Setoid a => a -> a -> Bool
+>
+> The => is new notation. What this means is that the signature to its right is valid if all the conditions to its left are satisfied. In the case of equals, the signature a -> a -> Bool is valid if a is a Setoid.
+
+(~ http://www.tomharding.me/2017/03/08/fantas-eel-and-specification-2/ )
+
+### ~>
+
+* The tilde arrow`(~>)` in a type signature is a call of _that_ specific method on an instance of a type. For example here `ap :: Apply f => f a ~> f (a -> b) -> f b` it means calling `ap(...)` on an instance of Apply with an argument of type `f (a -> b)`.
+ 
+ Or:
+
+> equals :: Setoid a => a ~> a -> Bool
+>
+> The ~> is the new symbol here. What this means is that equals is a method on the thing to the left of ~>, and the thing to the right is its signature.
+
+(~ http://www.tomharding.me/2017/03/08/fantas-eel-and-specification-2/ )
+
+
 ## Maybe is not about null or undefined
 
 Maybe is used to express a missing value, which doesn't neccssarily have to be `null`. `Maybe.nothing()` is not equal `null` and it is possible to create `Maybe.just(null)`. Another thing is thether it's a good idea :-) Probably not.
 
+## `Maybe.map()` vs. `Maybe.chain()`
+
+The function `fun` in `Maybe.map(fun)` shouldn't return `null` or `undefined`. If that's the case, then use `Maybe.chain(fun)` and change the `fun` to return (another) `Maybe`.
+
+## Promise vs. Task (or Future)
+
+_"Promises are inherently stateful & impure, 
+but you can hoist the callback pattern into a type similar to a Task 
+or Future (variously named in different languages) 
+just by storing the binary function that hooks callbacks 
+up to some async effect. (...) But this achieves two things that Promises don't: 
+it's lazy instead of eager (and hence, pure), 
+and it has a synchronously exposed return value."_
+
+~ http://degoes.net/articles/destroy-all-ifs#comment-3137616342
+
+~ https://jsbin.com/guwuqac/edit?js,console
+
+(& https://hackernoon.com/from-callback-to-future-functor-monad-6c86d9c16cb5 )
+
+~~~ js
+const Task = (fork) => ({
+  fork: fork,
+  map: (fn) => Task(
+    (reject, resolve) => fork(reject, x => resolve(fn(x)))
+  )
+})
+  
+const delayedFive = Task((reject,resolve) => setTimeout(resolve,400,5))
+const logError = (e) => console.log('error=', e);
+const logOutput = (out) => console.log('out=' + out)
+
+delayedFive
+  .map((i) => i * 2)
+  .map((i) => i + 3)
+  .fork(logError, logOutput); // -> "out=13"
+~~~
+
+## debugging a functional code with Ramda
+Try `R.tap((x) => console.log('x=', x))` from [ramda](http://ramdajs.com/docs/#tap).
+
+_"Runs the given function with the supplied object, then returns the object."_
+
+
 ## monads
-
-
 
 ### Reader
 
