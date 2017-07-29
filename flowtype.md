@@ -162,7 +162,7 @@ Advanced features in Flow: http://sitr.us/2015/05/31/advanced-features-in-flow.h
       Scoped type variables in classes
 
 
-## type Object
+## type `Object`
 
 Type `Object` can be a _starting point_ for other types. It can be used as any other type. For example this is OK (no flowtype errors):
 
@@ -195,11 +195,11 @@ function foo(o: Object): A {
   ~~~
   othwerwise flow will complain with an error `access of computed property/element. Computed property/element cannot be accessed on`. 
 
-## Stoping flow
+## stopping flow
 
 To kill all flow processes, use `killall -e flow`.
 
-## Type `mixed`
+## type `mixed`
 
 "_mixed is like a safe but somewhat annoying version of any. It should be preferred over any whenever possible._" ( https://flowtype.org/docs/builtins.html#mixed )
 
