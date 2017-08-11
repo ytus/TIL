@@ -221,3 +221,11 @@ if (typeof m === 'number') {
 }
 ~~~
 
+## What type is it?
+
+If you want to know, what type flowtype "see" at some place in your code, use the CLI with argument `type-at-pos`:  
+
+> $ npm run flow -- type-at-pos path/to/file.js 12 34
+
+where `12` is line in file and `34` is position on that line. 
+
