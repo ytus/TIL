@@ -29,6 +29,10 @@ If you need to use a variable inside of the `calc` function, do it this way: `he
 
 (~ http://stackoverflow.com/a/20236515 )
 
+## sass, divide a value of a variable with units
+
+You have a variable `$a: 32px` (notuce the unit - `px`) and you need to divide it by two. This `width: #{$a}/2;` will not work (thanks to the unit). Use `calc` like this instead: `width: calc(#{$a}/2);`.
+
 ## `overflow` and scrollbars
 
 Scroll bars will be visible:
