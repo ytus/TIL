@@ -132,6 +132,28 @@ In theory, Reader, Writer and State monads can be replaced by a functions with m
 
 (~ https://stackoverflow.com/a/18911314 )
 
+## `bind` is `map`, `collapse`, monad is `bind` and `create`
+
+> Monads are just a set two or three operations on a data structure, which obey certain laws. 
+> The operations are either (`map(function,structure)`, `collapse(structure)`, `create(value)`) or  (`bind(function,structure)`, `create(value)` ) where you can implement map and collapse in terms of bind, and vice versa. 
+> map(function,structure) is a function that applies a function to every element in the structure. Pretty straightforward. For example:
+
+    -> map(addThree,[1,2,3])
+    [4,5,6]
+
+> Collapse is a function which takes structures embedded in a structure of the same type, and gets rid of one level.
+
+    -> collapse([[],[3,4],[6,1,2]])
+    [3,4,6,1,2]
+
+> Create takes a value and puts it into the structure in the simplest way possible.
+
+    -> create(3)
+    [3]
+
+> These three functions are enough to have a monad over your structure
+
+(~ https://news.ycombinator.com/item?id=6349837 )
 
 ## articles
 
