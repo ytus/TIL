@@ -72,6 +72,11 @@ _"Runs the given function with the supplied object, then returns the object."_
 
 ## monads
 
+> Monads express how computations in the context of a particular type are chained together. 
+
+> [Monads are] confusing elements of imperative code be[ing] encapsulated into explicit types [which] makes debugging and unit testing way easier.
+
+(~ https://www.quora.com/Is-there-an-example-use-of-Monads-which-is-clearly-better-than-closures-with-mutable-state )
 ### Reader
 
 >  Represents a computation, which can read values from a shared environment, pass values from function to function, and execute sub-computations in a modified environment.
