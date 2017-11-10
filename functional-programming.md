@@ -77,6 +77,15 @@ _"Runs the given function with the supplied object, then returns the object."_
 > [Monads are] confusing elements of imperative code be[ing] encapsulated into explicit types [which] makes debugging and unit testing way easier.
 
 (~ https://www.quora.com/Is-there-an-example-use-of-Monads-which-is-clearly-better-than-closures-with-mutable-state )
+
+> The trick of pure fundamentalist functional languages is to have obsessive-compulsive types and expose all effects explicitly in the type signatures using monads, distinguishing between the types of pure values and the types of computations on values that may entail effects.
+
+> Once effects are explicit in, say, the I/O monad, operations such as allocating mutable variables, and reading and writing to them, must be lifted into the I/O monad.
+
+> The real power of monads comes from the fact that computations are themselves just values that can be passed around as first-class citizens within the pure host language.
+
+(~ https://queue.acm.org/detail.cfm?id=2611829 )
+
 ### Reader
 
 >  Represents a computation, which can read values from a shared environment, pass values from function to function, and execute sub-computations in a modified environment.
