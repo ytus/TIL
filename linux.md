@@ -38,3 +38,15 @@ use tis command:
 > fg
 
 (~ http://superuser.com/questions/268230/how-can-i-resume-a-stopped-job-in-linux )
+
+## Find and kill a process that uses some port
+
+Find the PID	
+
+> fuser 8080/tcp 
+
+and kill it
+
+> fuser -k 8080/tcp 
+
+(~ https://stackoverflow.com/a/11596144 )
