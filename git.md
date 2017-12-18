@@ -36,3 +36,16 @@ $ git bisect good/bad
 $ ABCDEF is the first bad commit
 $ git bisect reset
 ~~~
+
+# shorter way to push new branch `git push --set-upstream origin some-branch`
+
+Instead of this:
+
+> git push 
+> fatal: The current branch fa-319-schema-instead-of-code has no upstream branch.
+> To push the current branch and set the remote as upstream, use
+>   git push --set-upstream origin fa-319-schema-instead-of-code
+    
+Use this:    
+
+> git push -u origin HEAD    
