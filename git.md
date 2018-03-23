@@ -49,3 +49,6 @@ Instead of this:
 Use this:    
 
 > git push -u origin HEAD    
+
+# Flight rules for Git 
+[What to do when things go wrong](https://github.com/k88hudson/git-flight-rules)
