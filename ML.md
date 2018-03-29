@@ -2,8 +2,6 @@
 
 ## Forecasting
 
-### Resources
-
 📘🎓
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
 * [PennState STAT 510 -	Applied Time Series Analysis](https://onlinecourses.science.psu.edu/stat510/)
