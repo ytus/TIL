@@ -4,3 +4,6 @@
 > * sequence (= one after another)
 > * selection (= `if`)
 > * iteration (= `while`)
+
+📄
+* [Guide: Writing Testable Code](http://misko.hevery.com/attachments/Guide-Writing%20Testable%20Code.pdf)
