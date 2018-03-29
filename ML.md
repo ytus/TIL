@@ -14,7 +14,6 @@
 
 📄
 * [Anomaly.io](https://anomaly.io/blog/)
-* [StatsModels](http://www.statsmodels.org/0.6.1/examples/index.html)
 * [Holt-Winters Forecasting for Dummies](https://grisha.org/blog/2016/01/29/triple-exponential-smoothing-forecasting/)
 * [Demand forecasting](http://warwickdf.weebly.com/menu.html)
 * [Methods for Intermittent Demand Forecasting](http://www.lancaster.ac.uk/pg/waller/pdfs/Intermittent_Demand_Forecasting.pdf)
@@ -25,3 +24,6 @@
 * [Forecasting at Scale (Facebook Prophet)](https://peerj.com/preprints/3190.pdf)
 * [A Guide to Time Series Forecasting with ARIMA in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
 
+💾
+* [StatsModels](http://www.statsmodels.org/0.6.1/examples/index.html)
+* [The X-13ARIMA-SEATS Seasonal Adjustment Program](https://www.census.gov/srd/www/x13as/)
