@@ -169,15 +169,16 @@ In theory, Reader, Writer and State monads can be replaced by a functions with m
 
 (~ https://news.ycombinator.com/item?id=6349837 )
 
-## articles
+## articles 📄
 
 * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
 * [Three Useful Monads](http://adit.io/posts/2013-06-10-three-useful-monads.html)
 * [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
 * [Fantas, Eel, and Specification 1 - ?](http://www.tomharding.me/2017/03/03/fantas-eel-and-specification/)
 * [Practical Intro to Monads in JavaScript: Either](https://tech.evojam.com/2016/03/21/practical-intro-to-monads-in-javascript-either/)
+* [Monads, Arrows, and Idioms - Philip Wadler](homepages.inf.ed.ac.uk/wadler/topics/monads.html)
 
-## books
+## books 📘
 
 * [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) (from getify)
 * [Functional Programming in JavaScript
