@@ -3,6 +3,8 @@
 ## Forecasting
 
 📘🎓
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
+* [Python for Data Analysis](https://github.com/wesm/pydata-book)
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
 * [PennState STAT 510 -	Applied Time Series Analysis](https://onlinecourses.science.psu.edu/stat510/)
 * [Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/index.htm)
