@@ -31,11 +31,11 @@ You have too many kernels installed. To remove the *old* ones:
 
 To resume a stopped process in Linux (when you press `Ctrl+Z`), for example:
 
-> [1]+  Stopped                 vim
+    [1]+  Stopped                 vim
 
 use tis command:
 
-> fg
+    fg
 
 (~ http://superuser.com/questions/268230/how-can-i-resume-a-stopped-job-in-linux )
 
@@ -43,19 +43,19 @@ use tis command:
 
 Find the PID	
 
-> fuser 8080/tcp 
+    fuser 8080/tcp 
 
 or
 
-> sudo netstat -tulpn
+    sudo netstat -tulpn
 
 and kill it
 
-> fuser -k 8080/tcp 
+    fuser -k 8080/tcp 
 
 or 
 
-> sudo kill -9 8080
+    sudo kill -9 8080
 
 (~ https://stackoverflow.com/a/11596144 )
 
@@ -63,8 +63,8 @@ or
 
 For example `MAVEN_OPTS`: 
 
-> export MAVEN_OPTS="-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m"
+    export MAVEN_OPTS="-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m"
 
 In Windows:
 
-> set MAVEN_OPTS=-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m
+    set MAVEN_OPTS=-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m
