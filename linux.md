@@ -39,14 +39,32 @@ use tis command:
 
 (~ http://superuser.com/questions/268230/how-can-i-resume-a-stopped-job-in-linux )
 
-## Find and kill a process that uses some port
+## Find and kill a process that uses some port (`error: bind: Address already in use`)
 
 Find the PID	
 
 > fuser 8080/tcp 
 
+or
+
+> sudo netstat -tulpn
+
 and kill it
 
 > fuser -k 8080/tcp 
 
+or 
+
+> sudo kill -9 8080
+
 (~ https://stackoverflow.com/a/11596144 )
+
+## Setting an environment variable
+
+For example `MAVEN_OPTS`: 
+
+> export MAVEN_OPTS="-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m"
+
+In Windows:
+
+> set MAVEN_OPTS=-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m
