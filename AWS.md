@@ -34,3 +34,7 @@ Your app's development server runs on https://localhost:8080 and you need to acc
 * What ports are open:
 
       sudo netstat -ntlp | grep LISTEN
+
+* Error `Permission denied (publickey).`
+
+Maybe you copied the `Public DNS (IPv4)` from AWS dashboard and forget to add the user when connecting. It's `ubuntu` in `ubuntu@ec2-12-345-678-901.compute-1.amazonaws.com`.
