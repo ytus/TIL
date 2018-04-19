@@ -1,5 +1,13 @@
 # ML
 
+## ARIMA error: `Cannot cast ufunc subtract output from dtype('float64') to dtype('int64') with casting rule 'same_kind'`
+
+`statsmodels.tsa.arima_model.ARIMA` throws en error: `Cannot cast ufunc subtract output from dtype('float64') to dtype('int64') with casting rule 'same_kind'`
+
+It means the timeseries is a list of integers, not floats. Cast it to floats first: 
+
+> list(map(lambda i: float(i), ts))
+
 ## Forecasting
 
 📘🎓
