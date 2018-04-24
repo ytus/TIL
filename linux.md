@@ -55,7 +55,7 @@ and kill it
 
 or 
 
-    sudo kill -9 8080
+    sudo kill -9 1234
 
 (~ https://stackoverflow.com/a/11596144 )
 
