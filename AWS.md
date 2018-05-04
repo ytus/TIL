@@ -38,3 +38,7 @@ Your app's development server runs on https://localhost:8080 and you need to acc
 * Error `Permission denied (publickey).`
 
 Maybe you copied the `Public DNS (IPv4)` from AWS dashboard and forget to add the user when connecting. It's `ubuntu` in `ubuntu@ec2-12-345-678-901.compute-1.amazonaws.com`.
+
+## Error in lambda `Unable to import module 'xyz': /var/task/scipy/sparse/linalg/isolve/_iterative.cpython-36m-x86_64-linux-gnu.so: ELF load command address/offset not properly aligned`
+
+SciPy 1.0.1 doesn't run on AWS Lambda. Use 0.19.0.
