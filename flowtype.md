@@ -229,3 +229,41 @@ If you want to know, what type flowtype "see" at some place in your code, use th
 
 where `12` is line in file and `34` is position on that line. 
 
+## Union of types is a different type from each of it's types when used as a generic type
+
+~~~ js
+/* @flow */
+
+// Type<SomeType> cannot be used as Type<UnionOfSomeTypes>
+
+type New = { type: "NEW" }
+type Delete = { type: "DELETE"}
+
+type Action = New | Delete
+
+type Message<A> = { action: A }
+
+function handleMessage(message: Message<Action>) {
+  // ...
+}
+
+
+
+// #1 OK (function returns  Message<Action>)
+function createMessageNewAsAction(): Message<Action> {
+  return {action: { type: "NEW" }};
+}
+handleMessage(createMessageNewAsAction())
+
+
+
+// #2 ERROR (function returns  Message<New>)
+// Cannot call `handleMessage` with `createMessageNew()` bound to `message` 
+// because string literal `NEW` [1] is incompatible with string literal `DELETE` [2] 
+// in property `type` of type argument `A` [3].
+function createMessageNew(): Message<New> {
+  return {action: { type: "NEW" }};
+}
+handleMessage(createMessageNew())
+~~~
+
