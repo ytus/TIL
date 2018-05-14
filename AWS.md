@@ -42,3 +42,11 @@ Maybe you copied the `Public DNS (IPv4)` from AWS dashboard and forget to add th
 ## Error in lambda `Unable to import module 'xyz': /var/task/scipy/sparse/linalg/isolve/_iterative.cpython-36m-x86_64-linux-gnu.so: ELF load command address/offset not properly aligned`
 
 SciPy 1.0.1 doesn't run on AWS Lambda. Use 0.19.0.
+
+## Error when running fbprophet in lambda: `Unable to import module 'LambdaHandler': No module named '_tkinter'`
+
+`fbprophet` depends on `matplotlib` and matplotlib needs `tkinter` for interactive rendering of charts. In lambda, you can switch off interactive rendering using the file `matplotlibrc`. Create this file in the of your lambda package and put thisline inside:
+
+~~~ bash
+backend : agg
+~~~
