@@ -19,6 +19,7 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 * [Forecasting: principles and practice](https://www.otexts.org/fpp/)
 * [Forecasting: principles and practice - second edition](https://otexts.org/fpp2/)
 * [Vincent Zoonekynd - Time series](http://zoonek2.free.fr/UNIX/48_R/15.html)
+* [ARIMA models for time series forecasting](https://people.duke.edu/~rnau/411arim.htm#ses)
 
 📄
 * [Anomaly.io](https://anomaly.io/blog/)
