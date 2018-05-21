@@ -22,3 +22,13 @@ def foo():
 ~~~~
 
 ~ https://docs.python.org/3/faq/programming.html#why-am-i-getting-an-unboundlocalerror-when-the-variable-has-a-value
+
+# Pandas
+
+## Change date to the end of a month
+
+~~~ python
+df['Date'] = pd.to_datetime(df['Date'], format="%Y%m") + pandas.tseries.offsets.MonthEnd(1)
+~~~
+
+~ https://stackoverflow.com/a/37354256
