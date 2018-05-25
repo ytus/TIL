@@ -2,6 +2,10 @@
 
 ## WebStorm
 
+### Where to install (not only) WebStorm in Ubuntu
+
+Into `/opt`
+
 ### Enter doesn't press the selected button in pop-up dialog
 
 When you select a button in a pop-up dialog with arrow keys, pressing `Enter` will still press the ogiriginally hignlighted button with blue background. This is a feature, not a bug. To press the selected button, use `Space`. 
@@ -20,6 +24,8 @@ When you select a button in a pop-up dialog with arrow keys, pressing `Enter` wi
 Start WebStorm and run this in the menu:
 
     Tools -> Add Desktop entry
+
+The shortcuts definition is here: `~/.local/share/applications/jetbrains-webstorm.desktop`
 
 ## Vim
 
