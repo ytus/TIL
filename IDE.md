@@ -4,7 +4,7 @@
 
 ### Where to install (not only) WebStorm in Ubuntu
 
-Into `/opt`
+Into `/opt`.
 
 ### Enter doesn't press the selected button in pop-up dialog
 
