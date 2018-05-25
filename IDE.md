@@ -15,6 +15,11 @@ When you select a button in a pop-up dialog with arrow keys, pressing `Enter` wi
  * `File > Invalidate Caches / Restart...` 
  * `Help > Show Log in Files`. 
 
+### Create / update shortcut in Ubuntu's Launcher
+
+Start WebStorm and run this in the menu:
+
+    Tools -> Add Desktop entry
 
 ## Vim
 
