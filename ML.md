@@ -8,6 +8,13 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 
 > list(map(lambda i: float(i), ts))
 
+## Tutorials, courses, books ...
+* [This tutorial will teach you the main ideas of Unsupervised Feature Learning and Deep Learning.](http://ufldl.stanford.edu/tutorial/)
+* [ML Cheatsheet](http://ml-cheatsheet.readthedocs.io/en/latest/index.html)
+* [edX Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-4)
+* [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/~murphyk/MLbook/)
+* [Dive into Machine Learning](http://hangtwenty.github.io/dive-into-machine-learning/)
+
 ## Forecasting
 
 📘🎓
