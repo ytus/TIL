@@ -32,3 +32,16 @@ df['Date'] = pd.to_datetime(df['Date'], format="%Y%m") + pandas.tseries.offsets.
 ~~~
 
 ~ https://stackoverflow.com/a/37354256
+
+# Jupyter (Notebook/Lab)
+
+## Show more columns in a single row of the output
+
+~~~ python
+from IPython.lib.pretty import pretty
+from IPython.core.display import display, HTML
+
+display(HTML("<style>.container { width:100% !important; }</style>")) # https://stackoverflow.com/a/34058270
+
+pd.options.display.max_columns = 0
+~~~
