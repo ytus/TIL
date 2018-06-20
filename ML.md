@@ -14,6 +14,8 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 * [edX Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-4)
 * [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/~murphyk/MLbook/)
 * [Dive into Machine Learning](http://hangtwenty.github.io/dive-into-machine-learning/)
+* [Introduce machine learning contents in Jupyter Notebook format.](https://github.com/ethen8181/machine-learning)
+* [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) 📘
 
 ## Clustering
 * [Assessing Clustering Tendency](http://www.sthda.com/english/articles/29-cluster-validation-essentials/95-assessing-clustering-tendency-essentials/)
