@@ -23,6 +23,19 @@ def foo():
 
 ~ https://docs.python.org/3/faq/programming.html#why-am-i-getting-an-unboundlocalerror-when-the-variable-has-a-value
 
+## IPython.lib.pretty print to string, not ontput
+
+Use `pformat`:
+
+~~~ python
+from IPython.lib.pretty import pretty
+
+pp = pprint.PrettyPrinter(indent=4)
+
+something = {}
+pp.pformat(something)
+~~~
+
 # Pandas
 
 ## Change date to the end of a month
