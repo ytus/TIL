@@ -33,7 +33,7 @@ from IPython.lib.pretty import pretty
 pp = pprint.PrettyPrinter(indent=4)
 
 something = {}
-pp.pformat(something)
+somethingString = pp.pformat(something)
 ~~~
 
 # Pandas
