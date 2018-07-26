@@ -43,7 +43,7 @@ Change warnings into errors:
 ~~~ python
 import warnings
 warnings.filterwarnings('error')
-~~~
+~~~//
 
 and use `try:` `except ... :` as with normal errors.
 
@@ -57,6 +57,18 @@ pytestmark = pytest.mark.skip()   # skip all tests in this file
 @pytest.mark.skip()   # skip this single test
 def test_abc():
    ....
+~~~
+
+## profiling with cProfile
+
+~~~ python
+def a():
+  ...
+  
+cProfile.runctx('a()', globals(), locals(), filename='aStats.profile')
+p = pstats.Stats('aStats.profile') \
+  .sort_stats('filename', 'cumtime') \
+  .print_stats()
 ~~~
 
 # Pandas
