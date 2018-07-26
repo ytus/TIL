@@ -36,6 +36,29 @@ something = {}
 somethingString = pp.pformat(something)
 ~~~
 
+## Show warnings' stacktraces
+
+Change warnings into errors:
+
+~~~ python
+import warnings
+warnings.filterwarnings('error')
+~~~
+
+and use `try:` `except ... :` as with normal errors.
+
+## Skip pytest's test
+
+~~~ python
+import pytest as pytest
+
+pytestmark = pytest.mark.skip()   # skip all tests in this file
+
+@pytest.mark.skip()   # skip this single test
+def test_abc():
+   ....
+~~~
+
 # Pandas
 
 ## Change date to the end of a month
