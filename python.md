@@ -71,6 +71,18 @@ p = pstats.Stats('aStats.profile') \
   .print_stats()
 ~~~
 
+## skip pytest tests
+
+For s single test, use decorator:
+
+`@pytest.mark.skip()`
+
+For a whole module, define `pytestmark`:
+
+`pytestmark = pytest.mark.skip()`
+
+ (~ https://docs.pytest.org/en/latest/skipping.html#skip-all-test-functions-of-a-class-or-module)
+ 
 # Pandas
 
 ## Change date to the end of a month
