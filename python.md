@@ -4,6 +4,25 @@
 
 When using `json.dumps()` turn errors into strings first: `str(e)` (if error message is enough).
 
+## `TypeError: Object of type 'int64' is not JSON serializable`
+
+Use custom serializer with `json.dumps*()`:
+
+~~~ python
+def json_serial(obj):
+    """JSON serializer for objects not serializable by default json code"""
+
+    if isinstance(obj, (datetime, date)):
+        return obj.isoformat()
+    if isinstance(obj, np.int64):
+        return int(obj)
+    raise TypeError("Type %s not serializable" % type(obj))
+
+# ...
+    
+reusltJson = json.dumps(result, default=json_serial)
+~~~
+
 ## error `UnboundLocalError: local variable 'x' referenced before assignment`
 
 ~~~ python
