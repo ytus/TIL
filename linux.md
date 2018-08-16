@@ -71,9 +71,9 @@ In Windows:
 
 ## JetBrains IDE installation
 
-> Unpack the WebStorm-*.tar.gz file you have downloaded to a different folder if your current Downloads folder doesn't support file execution:
+~~> Unpack the WebStorm-*.tar.gz file you have downloaded to a different folder if your current Downloads folder doesn't support file execution:
  
-   tar xfz WebStorm-*.tar.gz <new_archive_folder>
+~~tar xfz WebStorm-*.tar.gz <new_archive_folder>
 
 > The recommended install location according to the filesystem hierarchy standard (FHS) is /opt. To install WebStorm into this directory, type the following command:
 
@@ -86,4 +86,5 @@ In Windows:
 > Run webstorm.sh from the bin subdirectory.
 
 (~ https://www.jetbrains.com/help/webstorm/install-and-set-up-product.html)
-~~~
+
+and then `Tools -> Create Desktop Entry...` to update desktop shortcuts.
