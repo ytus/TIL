@@ -68,3 +68,22 @@ For example `MAVEN_OPTS`:
 In Windows:
 
     set MAVEN_OPTS=-noverify -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=n -Xnoagent -ea -Xmx1024m
+
+## JetBrains IDE installation
+
+> Unpack the WebStorm-*.tar.gz file you have downloaded to a different folder if your current Downloads folder doesn't support file execution:
+ 
+   tar xfz WebStorm-*.tar.gz <new_archive_folder>
+
+> The recommended install location according to the filesystem hierarchy standard (FHS) is /opt. To install WebStorm into this directory, type the following command:
+
+    sudo tar xfz WebStorm-*.tar.gz -C /opt/
+
+> Switch to the bin subdirectory:
+
+    cd opt/WebStorm-*/bin
+
+> Run webstorm.sh from the bin subdirectory.
+
+(~ https://www.jetbrains.com/help/webstorm/install-and-set-up-product.html)
+~~~
