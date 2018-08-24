@@ -101,7 +101,15 @@ For a whole module, define `pytestmark`:
 `pytestmark = pytest.mark.skip()`
 
  (~ https://docs.pytest.org/en/latest/skipping.html#skip-all-test-functions-of-a-class-or-module)
- 
+
+## pytest import file mismatch: (...) HINT: remove __pycache__ / .pyc files 
+
+To remove files in pytest's caches, run:
+
+    find . -name '*.pyc' -delete
+    
+(~ https://blog.mozilla.org/webdev/2015/10/27/eradicating-those-nasty-pyc-files/)
+
 # Pandas
 
 ## Change date to the end of a month
