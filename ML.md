@@ -9,13 +9,22 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 > list(map(lambda i: float(i), ts))
 
 ## Tutorials, courses, books ...
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
+* [Python for Data Analysis](https://github.com/wesm/pydata-book)
 * [This tutorial will teach you the main ideas of Unsupervised Feature Learning and Deep Learning.](http://ufldl.stanford.edu/tutorial/)
 * [ML Cheatsheet](http://ml-cheatsheet.readthedocs.io/en/latest/index.html)
 * [edX Machine Learning](https://www.edx.org/course/machine-learning-columbiax-csmm-102x-4)
-* [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/~murphyk/MLbook/)
+* [Machine Learning: a Probabilistic Perspective](http://www.cs.ubc.ca/~murphyk/MLbook/) 📘
 * [Dive into Machine Learning](http://hangtwenty.github.io/dive-into-machine-learning/)
 * [Introduce machine learning contents in Jupyter Notebook format.](https://github.com/ethen8181/machine-learning)
 * [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) 📘
+* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/2017/syllabus) Stanford
+* [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
+* [Introduction to Data Mining (Second Edition) ](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) 📘
+* [Learning Math for Machine Learning](https://blog.ycombinator.com/learning-math-for-machine-learning/)
+* [The Matrix Calculus You Need For Deep Learning](http://explained.ai/matrix-calculus/index.html) + [explained.ai](http://explained.ai/)
+* 
+
 
 ## Clustering
 * [Assessing Clustering Tendency](http://www.sthda.com/english/articles/29-cluster-validation-essentials/95-assessing-clustering-tendency-essentials/)
@@ -24,8 +33,6 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 ## Forecasting
 
 📘🎓
-* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
-* [Python for Data Analysis](https://github.com/wesm/pydata-book)
 * [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
 * [PennState STAT 510 -	Applied Time Series Analysis](https://onlinecourses.science.psu.edu/stat510/)
 * [Engineering Statistics Handbook](https://www.itl.nist.gov/div898/handbook/index.htm)
@@ -45,6 +52,7 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 * [Avoiding Common Mistakes with Time Series](https://svds.com/avoiding-common-mistakes-with-time-series/)
 * [Forecasting at Scale (Facebook Prophet)](https://peerj.com/preprints/3190.pdf)
 * [A Guide to Time Series Forecasting with ARIMA in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
+* [Sales Prediction with Time Series Modeling](http://cs229.stanford.edu/proj2015/219_report.pdf)
 
 💾
 * [StatsModels](http://www.statsmodels.org/0.6.1/examples/index.html)
