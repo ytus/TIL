@@ -52,3 +52,7 @@ Use this:
 
 # Flight rules for Git 
 [What to do when things go wrong](https://github.com/k88hudson/git-flight-rules)
+
+## GitHub: `Can’t automatically merge. Don’t worry, you can still create the pull request.`
+
+GitHub doesn't show the conflict :-( To see it, checkout a temporary branch from your feature branch and do a megre over there. `git mergetool` will show the conflicts nicely and you can abort the merge later `git merge --abort`.
