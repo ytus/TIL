@@ -8,6 +8,9 @@ It means the timeseries is a list of integers, not floats. Cast it to floats fir
 
 > list(map(lambda i: float(i), ts))
 
+## Tips for debuging ML (Analyze, Select, Implement and Measure)
+https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-c8d82ce642b0
+
 ## Tutorials, courses, books ...
 * [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 * [Python for Data Analysis](https://github.com/wesm/pydata-book)
