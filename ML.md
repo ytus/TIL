@@ -30,8 +30,10 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [Introduction to Data Mining (Second Edition) ](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php) 📘
 * [Learning Math for Machine Learning](https://blog.ycombinator.com/learning-math-for-machine-learning/)
 * [The Matrix Calculus You Need For Deep Learning](http://explained.ai/matrix-calculus/index.html) + [explained.ai](http://explained.ai/)
-* 
-
+* [Model-based machine learning](http://mbmlbook.com/index.html)
+* [ML/AI notes - Chris Albon](https://chrisalbon.com/)
+* [The Machine Learning cheatsheet](https://github.com/remicnrd/ml_cheatsheet)
+* [Deep Learning - The Straight Dope](https://gluon.mxnet.io/#)
 
 ## Clustering
 * [Assessing Clustering Tendency](http://www.sthda.com/english/articles/29-cluster-validation-essentials/95-assessing-clustering-tendency-essentials/)
