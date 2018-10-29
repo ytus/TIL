@@ -81,10 +81,11 @@ In Windows:
 
 > Run webstorm.sh from the bin subdirectory.
 
+and then `Tools -> Create Desktop Entry...` to update desktop shortcuts.
+
 (~ https://www.jetbrains.com/help/webstorm/install-and-set-up-product.html)
 
 ## Slow Linux in VirtualBox
 
 On Windows? Disable Deffender for the folder with your virtual machine and processes `VirtualBox` and `VirtualBox.exe`.
 
-and then `Tools -> Create Desktop Entry...` to update desktop shortcuts.
