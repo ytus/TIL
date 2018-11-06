@@ -89,3 +89,8 @@ and then `Tools -> Create Desktop Entry...` to update desktop shortcuts.
 
 On Windows? Disable Deffender for the folder with your virtual machine and processes `VirtualBox` and `VirtualBox.exe`.
 
+## Mount shared folder in Ubuntu inside of VirtualBox
+
+    sudo mount -t vboxsf _shared_virtual_box ~/_shared_virtual_box
+    
+First folder is the VirtualBox shared forlder's name, the second folder is local folder in Ubuntu.
