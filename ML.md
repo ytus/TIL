@@ -63,6 +63,7 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [Forecasting at Scale (Facebook Prophet)](https://peerj.com/preprints/3190.pdf)
 * [A Guide to Time Series Forecasting with ARIMA in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
 * [Sales Prediction with Time Series Modeling](http://cs229.stanford.edu/proj2015/219_report.pdf)
+* [Forecasting at Uber: An Introduction] (https://eng.uber.com/forecasting-introduction/)
 
 💾
 * [StatsModels](http://www.statsmodels.org/0.6.1/examples/index.html)
