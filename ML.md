@@ -34,6 +34,7 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [ML/AI notes - Chris Albon](https://chrisalbon.com/)
 * [The Machine Learning cheatsheet](https://github.com/remicnrd/ml_cheatsheet)
 * [Deep Learning - The Straight Dope](https://gluon.mxnet.io/#)
+* [Machine learning fundamentals lesson in interactive notebooks http://www.deltanalytics.org/](https://github.com/DeltaAnalytics/machine_learning_for_good)
 
 ## Clustering
 * [Assessing Clustering Tendency](http://www.sthda.com/english/articles/29-cluster-validation-essentials/95-assessing-clustering-tendency-essentials/)
