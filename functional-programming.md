@@ -196,3 +196,5 @@ In theory, Reader, Writer and State monads can be replaced by a functions with m
 ## ???
 
 * [monet.js - Powerful abstractions for JavaScript: All monads](https://cwmyers.github.io/monet.js/#all-monads)
+* [funcadelic - The Fundamentals of Functional Programming are Fun!](https://github.com/cowboyd/funcadelic.js)
+
