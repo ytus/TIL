@@ -2,7 +2,10 @@
 
 ## virtualenvwrapper and anaconda
 
-virtualenvwrapper probably doesn't work correctly with conda
+`virtualenvwrapper` probably doesn't work correctly with conda (bash hangs forever)! Use just `virtualenv`. 
+
+Why use conda at all? It's recommended for IPython/Jupyter.
+
 
 ## pyenv install 3.7.1
 
@@ -17,6 +20,12 @@ First install all required dependencies:
 ## What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?
 
 -> https://stackoverflow.com/a/41573588
+
+## pip - what versions of a some-package are available?
+
+Use a dirty trick wiht two equals:
+
+    pip install some-package==
 
 ## error `Object of type 'TypeError' is not JSON serializable`
 
