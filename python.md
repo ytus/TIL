@@ -1,5 +1,23 @@
 # Python
 
+## virtualenvwrapper and anaconda
+
+virtualenvwrapper probably doesn't work correctly with conda
+
+## pyenv install 3.7.1
+
+First install all required dependencies:
+
+    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+    libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+    xz-utils tk-dev libffi-dev liblzma-dev python-openssl
+
+~ https://github.com/pyenv/pyenv/wiki/common-build-problems
+
+## What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?
+
+-> https://stackoverflow.com/a/41573588
+
 ## error `Object of type 'TypeError' is not JSON serializable`
 
 When using `json.dumps()` turn errors into strings first: `str(e)` (if error message is enough).
