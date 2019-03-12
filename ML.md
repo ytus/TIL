@@ -35,6 +35,7 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [The Machine Learning cheatsheet](https://github.com/remicnrd/ml_cheatsheet)
 * [Deep Learning - The Straight Dope](https://gluon.mxnet.io/#)
 * [Machine learning fundamentals lesson in interactive notebooks http://www.deltanalytics.org/](https://github.com/DeltaAnalytics/machine_learning_for_good)
+* [Machine Learning Notebooks](https://github.com/ageron/handson-ml) A series of Jupyter notebooks (...) fundamentals of Machine Learning and Deep Learning 
 
 ## Clustering
 * [Assessing Clustering Tendency](http://www.sthda.com/english/articles/29-cluster-validation-essentials/95-assessing-clustering-tendency-essentials/)
