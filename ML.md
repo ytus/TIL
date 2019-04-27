@@ -65,6 +65,7 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [A Guide to Time Series Forecasting with ARIMA in Python 3](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
 * [Sales Prediction with Time Series Modeling](http://cs229.stanford.edu/proj2015/219_report.pdf)
 * [Forecasting at Uber: An Introduction] (https://eng.uber.com/forecasting-introduction/)
+* [explanation of Holt-Linear and Holt-Winters models](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-pipeline-movavg-aggregation.html#_holt_linear)
 
 💾
 * [StatsModels](http://www.statsmodels.org/0.6.1/examples/index.html)
