@@ -51,6 +51,7 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [Forecasting: principles and practice - second edition](https://otexts.org/fpp2/)
 * [Vincent Zoonekynd - Time series](http://zoonek2.free.fr/UNIX/48_R/15.html)
 * [ARIMA models for time series forecasting](https://people.duke.edu/~rnau/411arim.htm#ses)
+* [Long thread on how Prophet works](https://twitter.com/seanjtaylor/status/1123278380369973248)
 
 📄
 * [Anomaly.io](https://anomaly.io/blog/)
