@@ -71,3 +71,4 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 💾
 * [StatsModels](http://www.statsmodels.org/0.6.1/examples/index.html)
 * [The X-13ARIMA-SEATS Seasonal Adjustment Program](https://www.census.gov/srd/www/x13as/)
+* [Amazon Forecast](https://docs.aws.amazon.com/forecast/latest/dg/aws-forecast-choosing-recipes.html)
