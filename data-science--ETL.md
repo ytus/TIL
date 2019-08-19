@@ -4,6 +4,7 @@
 * [Awesome Data Engineering](https://github.com/mistercrunch/awesome-data-engineering) A curated list of data engineering tools
 * [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
 * [Data Science at the Command Line](https://www.datascienceatthecommandline.com/) 📘
+* [Free Data Ebook Archive - An archive of all O’Reilly data ebooks](https://www.oreilly.com/data/free/archive.html) 📚
 
 ## Airflow
 * [ETL best practices with Airflow](https://gtoonstra.github.io/etl-with-airflow/index.html)
