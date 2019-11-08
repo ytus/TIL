@@ -171,6 +171,7 @@ In theory, Reader, Writer and State monads can be replaced by a functions with m
 
 ## articles 📄
 
+* [Scalable program architecrures](http://www.haskellforall.com/2014/04/scalable-program-architectures.html)
 * [Functors, Applicatives, And Monads In Pictures](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)
 * [Three Useful Monads](http://adit.io/posts/2013-06-10-three-useful-monads.html)
 * [Lenses In Pictures](http://adit.io/posts/2013-07-22-lenses-in-pictures.html)
