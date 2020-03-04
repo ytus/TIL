@@ -2,3 +2,6 @@
 * [Machine Learning Crash Course (Google)](https://developers.google.com/machine-learning/crash-course)
 * [SQL ZOO (SQL Tutorial)](https://sqlzoo.net/)
 * [TypingClub](https://www.typingclub.com/)
+* [Kaggle learn](https://www.kaggle.com/learn/overview)
+* [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/)
+* [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction)
