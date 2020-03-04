@@ -37,7 +37,7 @@ https://blog.insightdatascience.com/how-to-deliver-on-machine-learning-projects-
 * [Machine learning fundamentals lesson in interactive notebooks http://www.deltanalytics.org/](https://github.com/DeltaAnalytics/machine_learning_for_good)
 * [Machine Learning Notebooks](https://github.com/ageron/handson-ml) A series of Jupyter notebooks (...) fundamentals of Machine Learning and Deep Learning 
 * [Faster Data Science Education - Kaggle](https://www.kaggle.com/learn/overview)
-* [kaggle - free micro-courses](https://www.kaggle.com/learn/overview)
+* [The fastai book](https://github.com/fastai/fastbook) These draft notebooks cover an introduction to deep learning, fastai, and PyTorch.
 
 ## Clustering
 * [Assessing Clustering Tendency](http://www.sthda.com/english/articles/29-cluster-validation-essentials/95-assessing-clustering-tendency-essentials/)
