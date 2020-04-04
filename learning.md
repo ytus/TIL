@@ -6,3 +6,4 @@
 * [MIT 6.S191 Introduction to Deep Learning](http://introtodeeplearning.com/)
 * [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction)
 * [TensorFlow curriculums](https://www.tensorflow.org/resources/learn-ml)
+* [The Open Source Data Science Masters](http://datasciencemasters.org/)
