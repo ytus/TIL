@@ -3,3 +3,5 @@
 * [1 on 1 Meeting Questions](https://github.com/VGraupera/1on1-questions)
 * [160+ Data Science Interview Questions](https://hackernoon.com/160-data-science-interview-questions-415s3y2a)
 * [StaffEng ... continue down the path of technical excellence to become a Staff Engineer](https://staffeng.com/)
+* [Khan Academy Engineering Career Development](https://docs.google.com/document/u/0/d/1qr0d05X5-AsyDYqKRCfgGGcWSshTMd_vfTggfhDpbls/mobilebasic)
+* [Square’s Growth Framework for Engineers and Engineering Managers](https://developer.squareup.com/blog/squares-growth-framework-for-engineers-and-engineering-managers/)
