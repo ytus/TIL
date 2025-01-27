@@ -1,5 +1,13 @@
 # Linux
 
+## Ubuntu and Windows dual boot
+
+Use Rufus with default settings to write the ISO on USB. Follow [this guide](https://www.mikekasberg.com/blog/2024/05/20/dual-boot-ubuntu-24-04-and-windows-with-encryption.html). 
+
+### Error "Selected boot image did not authenticate"
+
+No need to disable Secure Boot/UEFI/Sure Start. No need to write the ISO in any special way. Simply go to BIOS (F10?) and switch on ["Enable MS UEFI CA key"](https://support.hp.com/gb-en/document/ish_8680345-8679627-16). That's it.
+
 ## Warning _The volume boot has only 0 bytes disk space remaining_
 
 You have too many kernels installed. To remove the *old* ones:
