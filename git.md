@@ -1,3 +1,9 @@
+## Cannot push and pull after renaming already published branch
+
+> git branch --set-upstream-to=origin/new-name new-name
+
+(~ https://stackoverflow.com/a/74074574 )
+
 ## Undo `git add some/file.txt`
 
 >     $ git reset HEAD some/file.txt
