@@ -2,7 +2,7 @@
 
 ## Ubuntu and Windows dual boot
 
-Use Rufus with default settings to write the ISO on USB. Follow [this guide](https://www.mikekasberg.com/blog/2024/05/20/dual-boot-ubuntu-24-04-and-windows-with-encryption.html). 
+Use Rufus with default settings to write the ISO on USB. Follow [this guide](https://www.mikekasberg.com/blog/2024/05/20/dual-boot-ubuntu-24-04-and-windows-with-encryption.html) to have Ubuntu encrypted without needing to erase the whole drive. 
 
 ### Error "Selected boot image did not authenticate"
 
